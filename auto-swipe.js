@@ -3,7 +3,7 @@ const clickLikeButton = () => {
     const allSpanBtns = document.querySelectorAll("span.Hidden")
     for(const btn of allSpanBtns){
         if(btn.textContent.includes('Like')){
-            btn.Click()
+            btn.click()
         }
     }
     // similarly other filters can be added to check for interests, hobbies, number of pics etc
